@@ -10,7 +10,7 @@ gantt
     
 
     section WinIBW4
-      Paramétrage WinIBW4 en CBS8                    :W4,2023-11-01,2024-06-30
+      Test et paramétrage WinIBW4 avec CBS8                    :W4,2023-11-01,2024-06-30
       Packaging, import scripts W3, test avec un étab.    :active, W4etp1,2023-11-01,2023-12-31
       (Re)packaging + reprise des scripts + test avec un étab. :active,testCJMdev,2024-01-01,2024-03-31
       Tests fonctionnels + doc. + soutien à la formation :active,testCJMdev,2024-04-01,2024-06-30
@@ -29,7 +29,7 @@ gantt
     section CBS8 -> CBS9 env DEV     
       Installation CBS9 (RHEL9+POSTGRESQL) env DEV  :insCBSdev,2024-04-01,2024-06-20
       Test WinIBW3&4/Sudoc avec CBS9 env DEV       :active,testCBSdev,2024-04-10,2024-06-20
-      Test CJM avec CBS9 env DEV                    :active,testCBSCJMdev,2024-04-20,2024-06-20
+      Test CJM avec CBS9 env DEV                    :active,testCBSCJMdev,2024-04-10,2024-06-20
       Test app. ABES                                :active,testCBSAPPdev,2024-05-20,2024-06-20
       Jalon 3 => GO-NOGO pour installation env TEST :crit,milestone,m3,after testCBSAPPdev, 0d
     section CBS8 -> CBS9 env TEST
